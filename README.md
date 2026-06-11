@@ -1,12 +1,12 @@
 # Spot Detection
 Simple Python package for detecting fluorescent spots in a 2-channel microscopy image and computing the overlap (co-localization).
-overlap (co-localization).
 - **Channel 0**: DAPI (nuclear stain)
 - **Channel 1**: GFP (protein of interest)
 
 
 ## Requirements
-This project uses conda for environment management. If you don't have it, install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) first.
+This project can be installed using either conda or pip.
+
 - Python 3.10
 - numpy
 - scipy
@@ -44,7 +44,7 @@ Note: ch0 corresponds to DAPI, ch1 corresponds to GFP.
 
 To run:
 ```bash
-python run.py --config config.yaml
+python run.py --config config.json
 ```
 
 ### Interactive exploration 
@@ -74,14 +74,12 @@ pytest
 │   setup.py
 │
 ├───data
-│       .gitkeep
-│       sample_image.tif
+│   ├───output
+│   └───raw_images
+│           sample_image.tif
 │
 ├───notebooks
 │       demo_task.ipynb
-│
-├───output
-│       .gitkeep
 │
 ├───src
 │   └───spot_detect
