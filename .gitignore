@@ -1,0 +1,17 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook autosave checkpoints
+.ipynb_checkpoints/
+
+# Conda and standard virtual environments
+.conda/
+.venv/
+venv/
+
+# Testing and linting caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

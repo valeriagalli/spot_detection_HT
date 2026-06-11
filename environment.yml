@@ -1,0 +1,13 @@
+name: spot-detection
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - scikit-image
+  - matplotlib
+  - pip
+  - pytest
+  - tifffile
+  - jupyter
