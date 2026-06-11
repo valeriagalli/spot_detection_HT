@@ -20,11 +20,10 @@ This project can be installed using either conda or pip.
 ## Installation
 **Navigate to the project directory:**
 ```bash
-cd spot_detect
+cd spot_detection_HT
 ```
 **With conda:**
 ```bash
-cd spot_detect
 conda env create -f environment.yml
 conda activate spot-detect
 ```
